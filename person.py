@@ -5,6 +5,7 @@ times = int(input('[.]Number of passwords?\n[.]'))
 length = int(input('[.]Password length?\n[.]'))
 
 f = open('C:\Users\DELL\Documents\GitHub\test1','w')
+f = open('C:\Users\hp\Documents\GitHub\test1\password.txt','w')
 
 for i in range(times):
 	password = ''
